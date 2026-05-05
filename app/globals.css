@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f7f8fb;
+  --foreground: #101827;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid rgb(226 232 240);
+  background: white;
+  box-shadow: 0 16px 35px rgba(16, 24, 39, .07);
+}

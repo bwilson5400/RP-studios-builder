@@ -27,6 +27,8 @@ This is the first functional starter build. It includes mock data and the struct
 
 ## Deploy to Vercel
 
+This repo is configured for Vercel Git integration. Any push to `main` should trigger a new Vercel deployment.
+
 1. Import this repo into Vercel.
 2. Set environment variables from `.env.example`.
 3. Deploy.
